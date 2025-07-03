@@ -1,3 +1,5 @@
+# Importando Biblioteca
+
 from pyfirmata import Arduino   
 import time #biblioteca de tempo
 
