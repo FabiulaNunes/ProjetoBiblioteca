@@ -1,4 +1,4 @@
-from pyfirmata import Arduino
+from pyfirmata import Arduino   
 import time #biblioteca de tempo
 
 # porta de comunicação do arduino
@@ -25,3 +25,5 @@ while True:
 
     led.write(0) # Low - 0 ( desligar )
     time.sleep(2)
+
+# fim
